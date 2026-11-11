@@ -6,7 +6,7 @@ A digital timing system for toy-car gravity racing, designed in Multisim and bui
 
 > **Status:** Fully working in simulation. The breadboard prototype did not display timing values; see [Debugging Notes](#debugging-notes) for what we found and what I would check next.
 
-![Multisim schematic](images/multisim-schematic.png)
+![Multisim schematic](multisim-schematic.png)
 *The full design in Multisim: starting tree (top), counting logic and 7447 display drivers (middle), and the 555 clock (bottom left).*
 
 ---
@@ -60,16 +60,16 @@ A digital timing system for toy-car gravity racing, designed in Multisim and bui
 **Simulation:** Worked as designed. The counter and displays ran correctly, and the reset and pause functions behaved as expected.
 
 <!-- Add Multisim screenshots of the reset and pause functions here:
-![Reset working in Multisim](images/reset-working.png)
-![Pause working in Multisim](images/pause-working.png)
+![Reset working in Multisim](reset-working.png)
+![Pause working in Multisim](pause-working.png)
 -->
 
 **Hardware:** The breadboard prototype did not display timing values.
 
-![Breadboard prototype](images/breadboard-prototype.png)
+![Breadboard prototype](breadboard-prototype.png)
 *The breadboard build: counters, decoders, 555 timer, and a seven-segment display.*
 
-![Oscilloscope capture of the clock signal](images/555-oscilloscope.png)
+![Oscilloscope capture of the clock signal](555-oscilloscope.png)
 *Oscilloscope capture of the clock signal from the breadboard circuit.*
 
 ## Debugging notes
@@ -105,6 +105,10 @@ I'm a Computer Engineering student at Purdue University Fort Wayne with coursewo
 
 ```
 https://docs.google.com/document/d/13bnem1IdaG7kdVfm0qDPtDYgecmVgGr9ybdBHdG1JNw/edit?usp=sharing
+README.md                  This file
+multisim-schematic.png     Multisim schematic
+breadboard-prototype.png   Breadboard photo
+555-oscilloscope.png       Oscilloscope capture
 ```
 
 ---
