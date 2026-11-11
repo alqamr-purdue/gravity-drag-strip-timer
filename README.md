@@ -6,8 +6,8 @@ A digital timing system for toy-car gravity racing, designed in Multisim and bui
 
 > **Status:** Fully working in simulation. The breadboard prototype did not display timing values; see [Debugging Notes](#debugging-notes) for what we found and what I would check next.
 
-![Multisim schematic]
-(multisim-schematic.png)
+![Multisim schematic](multisim-schematic.png)
+
 *The full design in Multisim: starting tree (top), counting logic and 7447 display drivers (middle), and the 555 clock (bottom left).*
 
 ---
